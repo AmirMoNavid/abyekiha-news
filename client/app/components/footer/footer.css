@@ -1,0 +1,823 @@
+.leaflet-container {
+  height: 300px;
+  width: 100%;
+}
+.chip {
+  display: inline-block;
+  padding: 0 25px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  border-radius: 25px;
+  background-color: #f1f1f1;
+}
+
+.chip img {
+  float: left;
+  margin: 0 10px 0 -25px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.static-map {
+  width: 250px;
+  height: 250px;
+}
+.map-container {
+  height: 250px;
+  border-radius: 4px;
+}
+.sidebarmap {
+  background-color: rgb(35 55 75 / 90%);
+  color: #fff;
+  padding: 3px 8px;
+  font-family: monospace;
+  z-index: 1;
+  position: relative;
+  top: 0;
+  left: 0;
+  margin: 0px;
+  border-radius: 4px;
+  font-size: 10px;
+}
+@media only screen and (max-width: 400px) {
+  .sidebar {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .sidebar {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .sidebar {
+    width: 100%;
+  }
+}
+
+footer a {
+  color: whitesmoke;
+}
+
+footer h1,
+footer p {
+  color: whitesmoke;
+}
+
+.footer {
+  background-color: rgb(131, 130, 130) !important;
+  margin-top: 20px;
+  padding-top: 30px !important;
+  padding-bottom: 2px !important;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  position: relative;
+  font-size: 12px !important;
+}
+
+.container-footer {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.is-one-third {
+  flex: none;
+  width: 33.3333%;
+  justify-content: center;
+  align-items: center;
+}
+.logo-footer {
+  display: flex;
+}
+.logo-footer img {
+  width: 220px;
+  height: 90px;
+}
+.titr-logo-footer {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+.titr-logo-footer h1 {
+  color: white;
+  font-size: 13px;
+  right: 0;
+  padding-bottom: 25px;
+  position: absolute;
+  margin-right: 125px;
+  margin-top: 80px;
+}
+.titr-logo-footer h2 {
+  color: white;
+  padding-top: 25px;
+  font-size: 11px;
+  position: absolute;
+  margin-right: 120px;
+  margin-top: 80px;
+}
+
+.footer-titr-desc {
+  color: white;
+  padding-top: 10px;
+  font-size: 18px;
+  border-bottom: 1px white solid;
+  padding-bottom: 6px;
+  width: 90%;
+}
+
+.footer-desc {
+  color: rgb(200, 200, 200);
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  font-size: 15px;
+}
+.footer-address {
+  color: rgb(200, 200, 200);
+  font-size: 14px;
+}
+.footer-phone {
+  color: rgb(200, 200, 200);
+}
+
+.titr-majazi {
+  color: white;
+  border-bottom: 1px solid white;
+  padding-bottom: 6px;
+  font-size: 18px;
+}
+.subtitle:not(:last-child) {
+  margin-bottom: 0;
+}
+
+.footer-titr-peivand {
+  color: white;
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 15px;
+  padding-right: 80px;
+}
+.farmandari-abyek {
+  padding-right: 95px;
+  font-size: 15px;
+  padding-bottom: 7px;
+}
+.shahrdari-abyek {
+  padding-right: 95px;
+  font-size: 15px;
+  padding-bottom: 7px;
+}
+.shohadahospital-abyek {
+  padding-right: 95px;
+  font-size: 15px;
+  padding-bottom: 7px;
+}
+.dadgostari-qazvin {
+  padding-right: 95px;
+  font-size: 15px;
+  padding-bottom: 7px;
+}
+.maliati-keshvar {
+  padding-right: 95px;
+  font-size: 15px;
+  padding-bottom: 7px;
+}
+
+.majazi-footers {
+  margin-bottom: 10px;
+}
+.majazi-footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  padding: 8px;
+  align-items: center;
+}
+.eeita {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.rubika {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}
+.instagram {
+  display: flex;
+  align-items: center;
+  padding-right: 15px;
+}
+.surosh {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}
+.majazi-footer-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-top: 2px;
+}
+
+.mb-3 {
+  display: flex;
+}
+.majazi-footer-title {
+  padding: 0 !important;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.bottom-header-link {
+  color: rgb(0, 0, 255);
+}
+
+@media only screen and (max-width: 1207px) {
+  .footer {
+    background: rgb(5, 17, 26);
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 2px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+
+  .container-footer {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .is-one-third {
+    flex: none;
+    width: 33.3333%;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo-footer {
+    display: flex;
+  }
+  .logo-footer img {
+    width: 170px;
+    height: 100px;
+  }
+  .titr-logo-footer {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+  }
+  .titr-logo-footer h1 {
+    color: white;
+    font-size: 13px;
+    right: 0;
+    padding-bottom: 25px;
+    position: absolute;
+    margin-right: 125px;
+    margin-top: 90px;
+  }
+  .titr-logo-footer h2 {
+    color: white;
+    padding-top: 25px;
+    font-size: 11px;
+    position: absolute;
+    margin-right: 110px;
+    margin-top: 90px;
+  }
+
+  .footer-titr-desc {
+    color: white;
+    padding-top: 10px;
+    font-size: 16px;
+    border-bottom: 1px white solid;
+    padding-bottom: 6px;
+  }
+
+  .footer-desc {
+    color: rgb(200, 200, 200);
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    font-size: 12px;
+  }
+  .footer-address {
+    font-size: 12px;
+  }
+  .footer-phone {
+    font-size: 14px;
+  }
+
+  .titr-majazi {
+    color: white;
+    border-bottom: 1px solid white;
+    padding-bottom: 6px;
+    font-size: 16px;
+  }
+
+  .footer-titr-peivand {
+    color: white;
+    padding-top: 10px;
+    font-size: 16px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+  }
+  .farmandari-abyek {
+    padding-right: 70px;
+    font-size: 12px;
+    padding-bottom: 5px;
+  }
+  .shahrdari-abyek {
+    padding-right: 70px;
+    font-size: 12px;
+    padding-bottom: 5px;
+  }
+  .shohadahospital-abyek {
+    padding-right: 70px;
+    font-size: 12px;
+    padding-bottom: 5px;
+  }
+  .dadgostari-qazvin {
+    padding-right: 70px;
+    font-size: 12px;
+    padding-bottom: 5px;
+  }
+  .maliati-keshvar {
+    padding-right: 70px;
+    font-size: 12px;
+    padding-bottom: 5px;
+  }
+
+  .titr-majazi {
+    color: white;
+    border-bottom: 1px solid white;
+    padding-bottom: 6px;
+    font-size: 16px;
+  }
+
+  .majazi-footers {
+    margin-bottom: 10px;
+  }
+  .majazi-footer {
+    display: flex;
+    margin-top: 15px;
+  }
+  .eeita {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    font-size: 13px;
+  }
+
+  .rubika {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    font-size: 13px;
+  }
+  .instagram {
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+    font-size: 13px;
+  }
+  .surosh {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    font-size: 13px;
+  }
+  .majazi-footer-image {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 2px;
+  }
+  .bottom-header {
+    font-size: 14px;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1063px) {
+  .titr-majazi {
+    color: white;
+    border-bottom: 1px solid white;
+    padding-bottom: 6px;
+    font-size: 16px;
+  }
+
+  .footer-titr-peivand {
+    color: white;
+    padding-top: 10px;
+    font-size: 16px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+  }
+  .farmandari-abyek {
+    padding-right: 70px;
+    font-size: 12px;
+    padding-bottom: 5px;
+  }
+  .shahrdari-abyek {
+    padding-right: 70px;
+    font-size: 12px;
+    padding-bottom: 5px;
+  }
+  .shohadahospital-abyek {
+    padding-right: 70px;
+    font-size: 12px;
+    padding-bottom: 5px;
+  }
+  .dadgostari-qazvin {
+    padding-right: 70px;
+    font-size: 12px;
+    padding-bottom: 5px;
+  }
+  .maliati-keshvar {
+    padding-right: 70px;
+    font-size: 12px;
+    padding-bottom: 5px;
+  }
+
+  .titr-majazi {
+    color: white;
+    border-bottom: 1px solid white;
+    padding-bottom: 6px;
+    font-size: 16px;
+  }
+
+  .majazi-footers {
+    margin-bottom: 10px;
+  }
+  .majazi-footer {
+    display: flex;
+    margin-top: 15px;
+  }
+  .eeita {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    font-size: 11px;
+  }
+
+  .rubika {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    font-size: 11px;
+  }
+  .instagram {
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+    font-size: 11px;
+  }
+  .surosh {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    font-size: 11px;
+  }
+  .majazi-footer-image {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 2px;
+  }
+}
+
+@media only screen and (max-width: 947px) {
+  .logo-footer img {
+    width: 150px;
+    height: 120px;
+  }
+  .titr-logo-footer h1 {
+    color: white;
+    font-size: 11px;
+    right: 0;
+    padding-bottom: 20px;
+    position: absolute;
+    margin-right: 110px;
+    margin-top: 80px;
+  }
+  .titr-logo-footer h2 {
+    color: white;
+    padding-top: 20px;
+    font-size: 9px;
+    position: absolute;
+    margin-right: 100px;
+    margin-top: 80px;
+  }
+}
+
+@media only screen and (max-width: 947px) {
+  .is-one-third {
+    width: 100%;
+  }
+
+  .logo-footer img {
+    width: 150px;
+    height: 120px;
+  }
+
+  .titr-logo-footer h1 {
+    color: white;
+    font-size: 11px;
+    right: 0;
+    padding-bottom: 20px;
+    position: absolute;
+    margin-right: 110px;
+    margin-top: 80px;
+  }
+  .titr-logo-footer h2 {
+    color: white;
+    padding-top: 20px;
+    font-size: 9px;
+    position: absolute;
+    margin-right: 100px;
+    margin-top: 80px;
+  }
+
+  .footer-titr-desc {
+    padding-top: 25px;
+    border-bottom: 1px white solid;
+    padding-bottom: 6px;
+  }
+
+  .footer-titr-desc p {
+    font-size: 14px;
+    font-weight: normal;
+  }
+
+  .footer-desc p {
+    font-size: 12px;
+  }
+  .footer-address {
+    font-size: 11px;
+  }
+  .footer-phone {
+    font-size: 12px;
+  }
+  .footer-titr-peivand {
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 4px;
+    padding-right: 60px;
+  }
+  .footer-titr-peivand p {
+    font-size: 14px;
+    font-weight: normal;
+    padding-right: 0px;
+  }
+  .farmandari-abyek {
+    padding-right: 0px;
+    font-size: 11px;
+    padding-top: 10px;
+    padding-right: 70px;
+  }
+  .shahrdari-abyek {
+    padding-right: 0px;
+    font-size: 11px;
+    padding-top: 0px;
+    padding-right: 70px;
+  }
+  .shohadahospital-abyek {
+    padding-right: 0px;
+    font-size: 11px;
+    padding-top: 0px;
+    padding-right: 70px;
+  }
+  .dadgostari-qazvin {
+    padding-right: 0px;
+    font-size: 11px;
+    padding-top: 0px;
+    padding-right: 70px;
+  }
+  .maliati-keshvar {
+    padding-right: 0px;
+    font-size: 11px;
+    padding-top: 0px;
+    padding-right: 70px;
+  }
+  .titr-majazi {
+    padding-bottom: 6px;
+    padding-top: 15px;
+    font-size: 12px;
+  }
+  .majazi-footers {
+    margin-bottom: 5px;
+  }
+  .majazi-footer {
+    display: flex;
+    margin-top: 10px;
+  }
+  .eeita {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    font-size: 10px;
+  }
+
+  .rubika {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    font-size: 10px;
+  }
+  .instagram {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    font-size: 10px;
+  }
+  .surosh {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    font-size: 10px;
+  }
+  .majazi-footer-image {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 2px;
+  }
+  .bottom-header {
+    font-size: 12px;
+    padding-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .is-one-third {
+    width: 100%;
+  }
+
+  .logo-footer img {
+    width: 150px;
+    height: 120px;
+  }
+
+  .titr-logo-footer h1 {
+    color: white;
+    font-size: 12px;
+    right: 0;
+    padding-bottom: 20px;
+    position: absolute;
+    margin-right: 110px;
+    margin-top: 80px;
+  }
+  .titr-logo-footer h2 {
+    color: white;
+    padding-top: 20px;
+    font-size: 10px;
+    position: absolute;
+    margin-right: 100px;
+    margin-top: 80px;
+  }
+
+  .footer-titr-desc {
+    padding-top: 25px;
+    border-bottom: 1px white solid;
+    padding-bottom: 6px;
+  }
+
+  .footer-titr-desc p {
+    font-size: 16px;
+    font-weight: normal;
+  }
+
+  .footer-desc p {
+    font-size: 13px;
+  }
+  .footer-address {
+    font-size: 12px;
+  }
+  .footer-phone {
+    font-size: 12px;
+  }
+  .footer-titr-peivand {
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 7px;
+    padding-right: 0px;
+    border-bottom: 1px solid white;
+  }
+  .footer-titr-peivand p {
+    font-size: 14px;
+    font-weight: normal;
+    padding-right: 0px;
+  }
+  .farmandari-abyek {
+    padding-right: 0px;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-right: 0px;
+  }
+  .shahrdari-abyek {
+    padding-right: 0px;
+    font-size: 13px;
+    padding-top: 0px;
+    padding-right: 0px;
+  }
+  .shohadahospital-abyek {
+    padding-right: 0px;
+    font-size: 13px;
+    padding-top: 0px;
+    padding-right: 0px;
+  }
+  .dadgostari-qazvin {
+    padding-right: 0px;
+    font-size: 13px;
+    padding-top: 0px;
+    padding-right: 0px;
+  }
+  .maliati-keshvar {
+    padding-right: 0px;
+    font-size: 13px;
+    padding-top: 0px;
+    padding-right: 0px;
+  }
+  .titr-majazi {
+    padding-bottom: 6px;
+    padding-top: 15px;
+    font-size: 14px;
+  }
+  .majazi-footers {
+    margin-bottom: 10px;
+  }
+  .majazi-footer {
+    display: flex;
+    margin-top: 15px;
+  }
+  .eeita {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    font-size: 12px;
+  }
+
+  .rubika {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    font-size: 12px;
+  }
+  .instagram {
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+    font-size: 12px;
+  }
+  .surosh {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    font-size: 12px;
+  }
+  .majazi-footer-image {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 2px;
+  }
+  .bottom-header {
+    font-size: 12px;
+    padding-bottom: 15px;
+  }
+}

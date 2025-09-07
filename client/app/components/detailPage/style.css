@@ -1,0 +1,96 @@
+.news img {
+  max-width: 70%;
+  height: auto;
+}
+
+.news {
+  margin-top: 15px;
+  box-shadow:
+    rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.last-news {
+  margin-top: 15px;
+  box-shadow:
+    rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+input,
+.textarea {
+  box-shadow: inset 0 0.0625em 0.125em hsla(0, 0%, 4%, 0.05);
+  max-width: 100%;
+  width: 100%;
+  border: 1px solid;
+  padding: 8px;
+}
+
+.input,
+.select select,
+.textarea {
+  background-color: #fff;
+  border-color: #dbdbdb;
+  border-radius: 4px;
+  color: #363636;
+  outline: none;
+}
+.field:not(:last-child) {
+  margin-bottom: 0.75rem;
+}
+@media print, screen and (min-width: 769px) {
+  .columns:not(.is-desktop) {
+    display: flex;
+  }
+}
+
+.columns:not(:last-child) {
+  margin-bottom: calc(1.5rem - 0.75rem);
+}
+.columns {
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+  margin-top: -0.75rem;
+}
+.column {
+  display: block;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 0.75rem;
+}
+.textarea:not([rows]) {
+  /* max-height: 40em;
+  min-height: 8em; */
+  padding-bottom: 12%;
+}
+
+.textarea {
+  display: block;
+  max-width: 100%;
+  min-width: 100%;
+  padding: calc(0.75em - 1px);
+  resize: vertical;
+}
+
+.commentsection {
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+}
+
+.input {
+  box-shadow: inset 0 0.0625em 0.125em rgba(10, 10, 10, 0.05) !important;
+  max-width: 100%;
+  width: 100%;
+  background-color: white;
+  border-color: #dbdbdb;
+  border-radius: 4px;
+  color: #363636;
+}
+.field:not(:last-child) {
+  margin-bottom: 0.75rem;
+}
+.comment-item {
+  box-shadow:
+    rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}

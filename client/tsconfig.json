@@ -1,0 +1,82 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "incremental": true,
+    "module": "esnext",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "strictNullChecks": true
+  },
+  "include": [
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "pages/api/uploads/[fileName].js",
+    "app/components/admin/sidebar/Sidebar.jsx",
+    "app/components/admin/inputs/textInput.jsx",
+    "app/components/admin/inputs/optionsInput.jsx",
+    "app/components/admin/inputs/multiValueInput.jsx",
+    "app/components/admin/inputs/fileInput.jsx",
+    "app/components/admin/inputs/checkboxInput.jsx",
+    "app/components/admin/information/Information.jsx",
+    "app/admin/dashboard/page.jsx",
+    "app/admin/auth/page.jsx",
+    "app/admin/[admin-sub-page]/[add-or-edit]/page.jsx",
+    "app/admin/[admin-sub-page]/page.jsx",
+    "app/components/admin/viewMoreModal.jsx",
+    "app/components/admin/dataTable.jsx",
+    "app/components/admin/Dashboard.jsx",
+    "app/components/admin/confirmModal.jsx",
+    "app/components/admin/inputs/editor/textEditor.jsx",
+    "app/components/admin/inputs/editor/editorBox.jsx",
+    "app/configs/configs.js",
+    "app/assets/formSchema/userFormSchema.js",
+    "app/assets/formSchema/pollFormSchema.js",
+    "app/assets/formSchema/faqSchema.js",
+    "app/assets/formSchema/commonFormSchema.js",
+    "app/assets/formSchema/commentSchema.js",
+    "app/assets/formSchema/categoryFormSchema.js",
+    "app/assets/formSchema/articleFormSchema.js",
+    "app/contexts/authContext.jsx",
+    "app/utils/getServerData.js",
+    "app/store/endPoints.js",
+    "app/utils/useAsyncEffect.js",
+    "app/utils/isJson.js",
+    "app/components/mainHead.jsx",
+    "app/components/buttons/submitBtn.jsx",
+    "app/components/buttons/btn.jsx",
+    "app/utils/isValidPathOrUrl.js",
+    "app/components/httpError.jsx",
+    "app/components/err.jsx",
+    "app/components/home/FAQs/FAQs.jsx",
+    "app/components/home/FAQs/FAQItem.jsx",
+    "app/components/home/FAQs/vote/vote.jsx",
+    "app/components/home/FAQs/vote/vote.button.jsx",
+    "app/utils/decodeJwt.js",
+    "app/components/home/poll/QuestionItem.jsx",
+    "app/components/home/poll/PollForm.jsx",
+    "app/components/home/poll/NoItemExist.jsx",
+    "app/components/home/poll/FormButton.jsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

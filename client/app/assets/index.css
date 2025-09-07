@@ -1,0 +1,159 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'IRANSansWeb';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./font/iranyekanwebregular(fanum).eot'),
+     url('./font/iranyekanwebregular(fanum).woff2') format('woff2'), 
+     url('./font/iranyekanwebregular(fanum).woff') format('woff'), 
+     url('./font/iranyekanwebregular(fanum).ttf') format('truetype');
+}
+
+@font-face{
+  font-family: 'B-Titr';
+  src: local('B-Titr'), url(./font/BTitrBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'B-Nazanin';
+  src: local('B-Nazanin'), url(./font/BNazaninBold.ttf) format('truetype');
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between { 
+  justify-content: space-between;
+}
+
+* {
+  font-family: "IRANSansWeb";
+  direction: rtl;
+  text-align: right;
+  text-decoration: none !important;
+  
+}
+button {
+  font-family: "IRANSansWeb" !important;
+}
+.IRANSansWeb {
+  font-family: "IRANSansWeb" !important;
+}
+
+.f-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.f-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-6xl {
+  font-size: 60px;
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex {
+  display: flex;
+}
+
+.my-\[100px\] {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.mr-\[10px\] {
+  margin-right: 10px;
+}
+
+.rounded-\[10px\] {
+  border-radius: 10px;
+}
+.rounded-\[5px\] {
+  border-radius: 5px;
+}
+
+.w-full {
+  width: 100%;
+}
+.h-full {
+  height: 100%;
+}
+.bg-none {
+  background: none;
+}
+.border-none {
+  border: none;
+}
+
+.shareLinks a {
+  width: 40px;
+  max-width: none;
+}
+.shareLinks img {
+  width: 100% !important;
+  max-width: none;
+}
+
+.border {
+  border: 1px solid #ddd;
+}
+
+.ql-toolbar * {
+  text-align: left;
+}
+#quill-editor input {
+  text-align: left !important;
+  direction: ltr;
+}
+tr th {
+  text-align: right !important;
+}
+p.err {
+  margin-top: 2px;
+  color: rgb(241, 63, 63);
+  font-size: small;
+}
+input[type="password"]::-ms-reveal,
+input[type="password"]::-webkit-contacts-auto-fill-button,
+input[type="password"]::-webkit-inner-spin-button {
+    display: none !important;
+}
+.eye-button {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  background: #e4e4e4;
+  cursor: pointer;
+}
+
+.splide__pagination {
+  bottom: -1.4rem !important;
+}
+
+.splide__arrows {
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .splide__arrows {
+    display: flex;
+  }
+}
+
+.f-center-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.f-center-start {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}

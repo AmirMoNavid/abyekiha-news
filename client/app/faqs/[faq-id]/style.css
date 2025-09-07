@@ -1,0 +1,13 @@
+.f-center-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.f-center-start {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.border {
+  border: 1px solid #ddd;
+}

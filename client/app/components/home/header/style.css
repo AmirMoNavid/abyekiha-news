@@ -1,0 +1,39 @@
+ul > .relative > span {
+  align-self: center;
+  border-color: rgb(24, 129, 24);
+  border-left-style: solid;
+  border-left-width: 2px;
+  content: none;
+}
+ul > .relative > span:hover {
+  color: rgb(24, 129, 24);
+}
+.nav-bar > ul > div > span:hover {
+  color: rgb(24, 129, 24);
+}
+
+.bac-header {
+  height: 120px;
+  width: 100%;
+  position: absolute;
+  right: 5px;
+  opacity: 0.7;
+}
+.category {
+  padding: 5px;
+  font-weight: 200;
+  font-size: 14px;
+}
+.category:hover .sub-category {
+  display: none;
+}
+.sub-cat:hover {
+  display: block !important;
+}
+.nav-bar {
+  background-color: #052d05;
+  top: 0;
+}
+.time {
+  background-color: #033b08;
+}
